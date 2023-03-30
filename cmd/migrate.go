@@ -5,7 +5,7 @@ Copyright © 2023 NAME HERE <EMAIL ADDRESS>
 package cmd
 
 import (
-	xconvert "github.com/scaf-fold/tools/xconverter"
+	"github.com/scaf-fold/tools/pkg/xconverter"
 	"github.com/spf13/cobra"
 )
 

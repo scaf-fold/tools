@@ -1,8 +1,8 @@
 package controller
 
 import (
-	"github.com/scaf-fold/tools/courier"
 	"github.com/scaf-fold/tools/example/route/controller/business"
+	"github.com/scaf-fold/tools/pkg/courier"
 )
 
 // recommend using your service name

@@ -2,7 +2,7 @@ package business
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/scaf-fold/tools/courier"
+	"github.com/scaf-fold/tools/pkg/courier"
 	"net/http"
 )
 
