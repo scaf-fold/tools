@@ -1,0 +1,7 @@
+Model:
+  - Dsn: 'postgres://username:password@yourhost:port/database'
+    Table:
+      yourTableName: yourTargetObjectName
+  - Dsn: 'postgres://username:password@yourhost:port/database'
+    Table:
+      yourTableName: yourTargetObjectName
