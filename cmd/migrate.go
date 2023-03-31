@@ -5,7 +5,7 @@ Copyright © 2023 NAME HERE <EMAIL ADDRESS>
 package cmd
 
 import (
-	"github.com/scaf-fold/tools/pkg/xconverter"
+	"github.com/scaf-fold/tools/pkg/gormer"
 	"github.com/spf13/cobra"
 )
 
@@ -21,7 +21,7 @@ func migrate(cmd *cobra.Command, args []string) {
 	if err != nil {
 		panic(err)
 	}
-	assemble := xconvert.NewModelConverter(path)
+	assemble := gormer.NewModelConverter(path)
 	assemble.Gen()
 }
 
